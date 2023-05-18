@@ -9,18 +9,21 @@ b=a;
 Console.WriteLine("valor de a:"+a);
 Console.WriteLine("valor de b:"+b);
 */
-Console.WriteLine("Ingrese un numero:");
-string A = Console.ReadLine();
-int a =Int32.Parse(A);
+Console.WriteLine("Ingrese un numero positivo:");
+int a;
+bool control = int.TryParse(Console.ReadLine(), out a);
 int inv;
 int invdo = 0;
-while(a>=10){
-    inv = a%10;
-    a=a/10;
-    invdo = invdo*10 + inv;
+
+if(control){
+        while(a>=10){
+            inv = a%10;
+            a=a/10;
+            invdo = invdo*10 + inv;
+        }
+
+        invdo = invdo*10 + a;
+
+
+        Console.WriteLine("valor de a invertido:"+invdo);
 }
-
-invdo = invdo*10 + a;
-
-
-Console.WriteLine("valor de a invertido:"+invdo);
