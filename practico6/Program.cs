@@ -27,9 +27,10 @@ if(control){
 
         Console.WriteLine("valor de a invertido:"+invdo);
 }*/
-int a;
+int a; //Las variables deben declararse antes de ser usadas, cuando existen casos de do while
+//debemos iniciar antes del ingresar al do
 do{
-    Console.WriteLine("Elija una opcion");
+    Console.WriteLine("Elija una opcion"); //Escribe la linea que esta entre comillas
     Console.WriteLine("1-Suma");
     Console.WriteLine("2-Resta");
     Console.WriteLine("3-Producto");
@@ -37,12 +38,13 @@ do{
     Console.WriteLine("5-Salir");
     Console.WriteLine("Ingrese una opcion:");
 
-    float A, B;
-    bool control = int.TryParse(Console.ReadLine(), out a);
+    float A, B;//vaiables a sumar,restar,dividir o multiplicar
+    bool control = int.TryParse(Console.ReadLine(), out a); //usamos este codigo para transformar una cadena a entero
     if(control){
             switch(a){
             case 1:
                 Console.WriteLine("Ingrese los valores a sumar: ")
+                //en este caso usamos una cadena para ingresar un float
                 if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
                     Console.WriteLine(A+B);
                 }else{
