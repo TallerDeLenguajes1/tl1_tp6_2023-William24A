@@ -27,6 +27,7 @@ if(control){
 
         Console.WriteLine("valor de a invertido:"+invdo);
 }*/
+int a;
 do{
     Console.WriteLine("Elija una opcion");
     Console.WriteLine("1-Suma");
@@ -35,21 +36,49 @@ do{
     Console.WriteLine("4-Division");
     Console.WriteLine("5-Salir");
     Console.WriteLine("Ingrese una opcion:");
-    int a;
+
     float A, B;
     bool control = int.TryParse(Console.ReadLine(), out a);
     if(control){
             switch(a){
             case 1:
+                Console.WriteLine("Ingrese los valores a sumar: ")
+                if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
+                    Console.WriteLine(A+B);
+                }else{
+                    Console.WriteLine("Debe ingresar numeros.")
+                }
+                Console.WriteLine("Presione enter para continuar.");
                 Console.ReadKey();
                 break;
             case 2:
+                Console.WriteLine("Ingrese los valores a restar: ")
+                if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
+                    Console.WriteLine(A-B);
+                }else{
+                    Console.WriteLine("Debe ingresar numeros.")
+                }
+                Console.WriteLine("Presione enter para continuar.");
                 Console.ReadKey();
                 break;
             case 3:
+                Console.WriteLine("Ingrese los valores a multiplicar: ")
+                if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
+                    Console.WriteLine(A*B);
+                }else{
+                    Console.WriteLine("Debe ingresar numeros.")
+                }
+                Console.WriteLine("Presione enter para continuar.");
                 Console.ReadKey();
                 break;
             case 4:
+                Console.WriteLine("Ingrese los valores a dividir: ")
+                if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
+                    Console.WriteLine(A/B);
+                }else{
+                    Console.WriteLine("Debe ingresar numeros.")
+                }
+                Console.WriteLine("Presione enter para continuar.");
                 Console.ReadKey();
                 break;
             default:
