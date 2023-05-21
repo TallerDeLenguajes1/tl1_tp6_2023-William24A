@@ -126,5 +126,5 @@ do{
         Console.WriteLine("No ingreso un numero. Presione una tecla para continuar.");
         Console.ReadKey();
     }
-}while( a < 5);
+}while( a < 7);
 
