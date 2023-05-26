@@ -8,7 +8,7 @@ a=10;
 b=a;
 Console.WriteLine("valor de a:"+a);
 Console.WriteLine("valor de b:"+b);
-*/
+
 Console.WriteLine("Ingrese un numero positivo:");
 int a;
 bool control = int.TryParse(Console.ReadLine(), out a);
@@ -26,4 +26,16 @@ if(control){
 
 
         Console.WriteLine("valor de a invertido:"+invdo);
-}
+}*/
+
+Console.WriteLine("Ingrese una frase larga: ");
+string aux;
+aux = Console.ReadLine().ToString();
+Console.WriteLine("El tamaño de tu frase es: "+ aux.Length);
+Console.WriteLine("Ingrese su segunda frase: ");
+String aux2;
+aux2 = Console.ReadLine().ToString();
+string cadenaSalida = $"{aux} {aux2}";
+Console.WriteLine("Cadenas concatenadas: "+cadenaSalida);
+string cortada = aux.Substring(0,3);
+Console.WriteLine("Cadena ingresada cortada en solo 3 letras: "+cortada);

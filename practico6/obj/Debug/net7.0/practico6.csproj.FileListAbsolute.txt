@@ -13,3 +13,18 @@ C:\Users\Alumno\Desktop\William\tl1_tp6_2023-William24A\practico6\obj\Debug\net7
 C:\Users\Alumno\Desktop\William\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.pdb
 C:\Users\Alumno\Desktop\William\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\William\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\ref\practico6.dll
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\bin\Debug\net7.0\practico6.exe
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\bin\Debug\net7.0\practico6.deps.json
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\bin\Debug\net7.0\practico6.runtimeconfig.json
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\bin\Debug\net7.0\practico6.dll
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\bin\Debug\net7.0\practico6.pdb
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.csproj.AssemblyReference.cache
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.GeneratedMSBuildEditorConfig.editorconfig
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.AssemblyInfoInputs.cache
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.AssemblyInfo.cs
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.csproj.CoreCompileInputs.cache
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.dll
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\refint\practico6.dll
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.pdb
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\practico6.genruntimeconfig.cache
+D:\A_Segundo_Año\Taller de Lenguaje 1\tl1_tp6_2023-William24A\practico6\obj\Debug\net7.0\ref\practico6.dll
