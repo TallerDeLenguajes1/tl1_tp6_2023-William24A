@@ -13,21 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\William\\tl1_tp6_2023-William24A\\practico6\\practico6.csproj",
+      "projectUniqueName": "D:\\A_Segundo_Año\\Taller de Lenguaje 1\\tl1_tp6_2023-William24A\\practico6\\practico6.csproj",
       "projectName": "practico6",
-      "projectPath": "C:\\Users\\Alumno\\Desktop\\William\\tl1_tp6_2023-William24A\\practico6\\practico6.csproj",
+      "projectPath": "D:\\A_Segundo_Año\\Taller de Lenguaje 1\\tl1_tp6_2023-William24A\\practico6\\practico6.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Desktop\\William\\tl1_tp6_2023-William24A\\practico6\\obj\\",
+      "outputPath": "D:\\A_Segundo_Año\\Taller de Lenguaje 1\\tl1_tp6_2023-William24A\\practico6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -48,7 +48,9 @@ do{
                 Console.WriteLine("Ingrese los valores a sumar: ");
                 //en este caso usamos una cadena para ingresar un float
                 if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
-                    Console.WriteLine(A+B);
+                    float suma = A + B;
+                    string sumaString = suma.ToString();
+                    Console.WriteLine("La suma de "+A.ToString()+" con "+B.ToString()+" es: "+sumaString);
                 }else{
                     Console.WriteLine("Debe ingresar numeros.");
                 }
@@ -95,7 +97,7 @@ do{
                     }
                     Console.WriteLine("El valor del seno es: "+Math.Asin(A));
                     Console.WriteLine("El valor del coseno es: "+Math.Acos(A));
-                    Console.WriteLine("El valor entero es: "+(int)Math.floor(A));
+                    Console.WriteLine("El valor entero es: "+(int)Math.Floor(A));
                 }else{
                     Console.WriteLine("Debe ingresar numeros.");
                 }
@@ -103,7 +105,7 @@ do{
                 Console.ReadKey();
                 break;
             case 6:
-                Console.WriteLine("Ingrese los valores a comparar: ")
+                Console.WriteLine("Ingrese los valores a comparar: ");
                 if(float.TryParse(Console.ReadLine(), out A) && float.TryParse(Console.ReadLine(), out B) ){
                     if(A>=B){
                         Console.WriteLine("El maximo es: "+A);
