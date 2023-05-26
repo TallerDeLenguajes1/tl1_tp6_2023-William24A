@@ -39,3 +39,15 @@ string cadenaSalida = $"{aux} {aux2}";
 Console.WriteLine("Cadenas concatenadas: "+cadenaSalida);
 string cortada = aux.Substring(0,3);
 Console.WriteLine("Cadena ingresada cortada en solo 3 letras: "+cortada);
+foreach (var item in aux)
+{
+    Console.WriteLine(item);
+}
+Console.WriteLine("Ingrese palabra a buscar: ");
+string buscar= Console.ReadLine().ToString();
+bool contiene = aux2.Contains(buscar);
+if(contiene){
+    Console.WriteLine("Contiene la palabra");
+}else{
+    Console.WriteLine("No contiene la palabra");
+}
