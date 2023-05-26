@@ -37,7 +37,8 @@ do{
     Console.WriteLine("4-Division");
     Console.WriteLine("5-Datos de un número");
     Console.WriteLine("6-Maximo y minimo");
-    Console.WriteLine("7-Salir");
+    Console.WriteLine("7-Ingrese ecuacion");
+    Console.WriteLine("8-Salir");
     Console.WriteLine("Ingrese una opcion:");
 
     float A, B;//vaiables a sumar,restar,dividir o multiplicar
@@ -118,6 +119,20 @@ do{
                 Console.WriteLine("Presione enter para continuar.");
                 Console.ReadKey();
                 break;
+            case 7:
+                Console.WriteLine("Ingrese su ecuacion con +:");
+                string ecuacion = Console.ReadLine().ToString();
+                string [] numeros = ecuacion.Split("+");
+                float suma=0;
+                foreach (var item in numeros)
+                {
+                    if(float.TryParse(item, out A)){
+                        suma += A;
+                    }
+                }
+                Console.WriteLine("La ecuacion nos da: "+suma);
+                Console.ReadKey();
+                break;
             default:
                 Console.WriteLine("Muchas gracias por elegirnos.");
                 break;
@@ -126,5 +141,5 @@ do{
         Console.WriteLine("No ingreso un numero. Presione una tecla para continuar.");
         Console.ReadKey();
     }
-}while( a < 7);
+}while( a < 8);
 
